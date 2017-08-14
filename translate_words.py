@@ -52,7 +52,7 @@ def main():
         key = word[0].decode('utf-8')
 
         p = Pinyin()
-        pinyin_word = p.get_pinyin(key, show_tone_marks=True)
+        pinyin_word = p.get_pinyin(key, ' ', show_tone_marks=True)
 
         traditional_word = translate(word[0], 'zh-TW')
         if traditional_word == key:
