@@ -5,8 +5,6 @@ from mtranslate import translate
 from xpinyin import Pinyin
 import csv
 
-from translate import Translator
-
 
 def main():
     with open('input.csv', 'r') as f:

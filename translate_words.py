@@ -1,12 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from mtranslate import translate
-from xpinyin import Pinyin
+
 import csv
 import requests
-from bs4 import BeautifulSoup as BS
 import re
+from mtranslate import translate
+from xpinyin import Pinyin
+from bs4 import BeautifulSoup as BS
+
 
 
 def get_hanvi(word):
