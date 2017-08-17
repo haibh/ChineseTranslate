@@ -24,7 +24,7 @@ def main():
 
         if '-' in ''.join(sentence):
             full_string = ','.join(sentence).decode('utf-8')
-            print full_string
+            # print full_string
 
             meaning_ch_simple = re.findall(ur'[\u4e00-\u9fff]+', full_string)[0]  # get first CHINA word
 
@@ -42,6 +42,7 @@ def main():
             # pinyin_and_en = pinyin_and_en.split(' ', 2)[2]
             first_word = ','.join(sentence).split(' ')[0]
             meaning_pinyin = first_word.split('．')[1].decode('utf-8')
+
             meaning_en = translate(meaning_ch_simple.encode('utf-8'), 'en')
 
             meaning_vi = ','.join(sentence).split('-')[2].lstrip(' ').decode(
