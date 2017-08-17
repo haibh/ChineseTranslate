@@ -58,7 +58,13 @@ def main():
 
         traditional_word = translate(word[0], 'zh-TW')
         if traditional_word == key:
-            traditional_word = ''
+            simple_word_check = translate(word[0], 'zh-CN')
+            if simple_word_check != traditional_word:
+                traditional_word = key
+                key = simple_word_check
+            else:
+                traditional_word = ''
+
         english_word = translate(word[0], 'en')
         vietnamese_word = translate(word[0], 'vi')
 
