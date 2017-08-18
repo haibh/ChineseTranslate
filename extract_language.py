@@ -13,8 +13,6 @@ def main():
         sentences_list = list(reader)
     # print sentences_list
 
-    translate_list = []  # Create list
-
     for sentence in sentences_list:
         meaning_ch_simple = ''
         meaning_ch_traditional = ''
@@ -35,8 +33,10 @@ def main():
                 if meaning_ch_simple_check != meaning_ch_simple:
                     meaning_ch_traditional = meaning_ch_simple
                     meaning_ch_simple = meaning_ch_simple_check
-            else:
-                meaning_ch_traditional = ''
+                else:
+                    meaning_ch_traditional = ''
+            # else:
+            #     meaning_ch_traditional = ''
 
             # pinyin_and_en = ','.join(sentence).split('-')[0].decode('utf-8')
             # pinyin_and_en = pinyin_and_en.split(' ', 2)[2]
