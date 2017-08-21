@@ -39,6 +39,7 @@ def main():
                 meaning_ch_traditional = ''
 
             # pinyin_and_en = ','.join(sentence).split('-')[0].decode('utf-8')
+            1506
             # pinyin_and_en = pinyin_and_en.split(' ', 2)[2]
             first_word = ','.join(sentence).split(' ')[0]
             meaning_pinyin = first_word.split('．')[1].decode('utf-8')
