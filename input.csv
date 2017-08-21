@@ -51,7 +51,7 @@
 147．néng 能 - NĂNG - Có thể
 148．nǐ 你 - NHĨ - Bạn
 149．nián 年 - NIÊN - Năm
-14．bú kèqi - BẤT KHÁCH KHÍ - Đừng khách sáo
+14．bú kèqi 不客气 - BẤT KHÁCH KHÍ - Đừng khách sáo
 150．nín 您 - NÂM - Ngài
 151．niúnǎi 牛奶 - NGƯU NÃI - Sữa bò
 152．nǚ’ér 女儿 - NỮ NHI - Con gái
@@ -77,7 +77,7 @@
 170．qùnián 去年 - KHỨ NIÊN - Năm ngoái
 171．ràng 让 - NHƯỢNG - Để
 172．rè 热 - NHIỆT - Nóng
-173．rén 人 - NHÂN
+173．rén 人 - NHÂN - người
 174．rènshi 认识 - NHẬN THỨC - Biết
 175．rì 日 - NHẬT - Ngày, mặt trời
 176．sān 三 - TAM - Số 3
@@ -100,7 +100,7 @@
 191．shìqing 事情 - THỰC TÌNH - Thật sự
 192．shǒubiǎo 手表 - THỦ BIỂU - Đồng hồ đeo tay
 193．shǒujī 手机 - THỦ CƠ - Điện thoại di động
-194．shū 书 - SÁCH
+194．shū 书 - SÁCH - Sách
 195．shuǐ 水 - THUỶ - Nước
 196．shuǐguǒ 水果 - THUỶ QUẢ - Hoa quả
 197．shuìjiào 睡觉 - THUỲ GIÁC - Đi ngủ
@@ -242,7 +242,7 @@
 47．duì 对 - ĐỐI - Đối với
 48．duìbuqǐ 对不起 - ĐỐI BẤT KHỞI - Xin lỗi
 49．duō 多 - ĐA - Nhiều
-4．ba 吧 - Trợ từ ngữ khí “nhé”
+4．ba 吧 - Trợ từ ngữ khí “nhé” - Trợ từ
 50．duōshao 多少 - ĐA THIỂU - Bao nhiêu
 51．érzi 儿子 - NHI TỬ - Con trai
 52．èr 二 - NHỊ - Số 2
@@ -298,37 +298,32 @@
 98．jīntiān 今天 - KIM THIÊN - Ngày hôm nay
 99．jìn 进 - TIẾN - Đi vào
 9．bēizi 杯子 - BỐI TỬ - Cá cốc
-B
-D
-不客气
-272．yuè 月 – NGUYỆT – Tháng
-273．yùndòng 运动 – VẬN ĐỘNG – Hoạt động
-274．zài 在 – TẠI – Ở tại
-275．zài 再 – TÁI – Lại
-276．zàijiàn 再见 – TÁI KIẾN – Gặp lại
-277．zǎoshang 早上 – TẢO THƯỢNG – Sáng sớm
-278．zěnme 怎么 – CHẨM MA – Thế nào
-279．zěnmeyàng 怎么样 – CHẨM MA DƯƠNG – Như thế nào
-280．zhāng 张 – TRƯƠNG – Lượng từ của trang
-
-281．zhàngfu 丈夫 – TRƯỢNG PHỤ – Đàn ông
-282．zhǎo 找 – TRẢO – Tìm
-283．zhè 这 （zhèr 这儿）- GIÁ – Cái này
-284．zhe 着 – TRƯỚC – Đang
-285．zhēn 真 – CHÂN – Thật
-286．zhèngzài 正在 – CHÍNH TẠI – Ngay tại
-287．zhīdào 知道 – TRÍ ĐẠO – Biết
-288．Zhōngguó 中国 – TRUNG QUỐC – Trung Quốc
-289．zhōngwǔ 中午 – TRUNG NGỌ – Buổi trưa
-290．zhù 住 – TRÚ – Ở
-
-291．zhǔnbèi 准备 – CHUẨN BỊ – Chuẩn bị
-292．zhuōzi 桌子 – TRÁC TỬ – Cái bàn
-293．zì 字 – TỰ – Chữ
-294．zìxíngchē 自行车 – TỰ HÀNH XA – Xe đạp
-295．zǒu 走 – TẨU – Chạy
-296．zuì 最 – TỐI – Nhất
-297．zuótiān 昨天 – TẠC THIÊN – Ngày hôm qua
-298．zuǒbian 左边 – TẢ BIÊN – Bên trái
-299．zuò 坐 – TOẠ – Ngồi
-300．zuò 做 – TÁC – Làm
+272．yuè 月 - NGUYỆT - Tháng
+273．yùndòng 运动 - VẬN ĐỘNG - Hoạt động
+274．zài 在 - TẠI - Ở tại
+275．zài 再 - TÁI - Lại
+276．zàijiàn 再见 - TÁI KIẾN - Gặp lại
+277．zǎoshang 早上 - TẢO THƯỢNG - Sáng sớm
+278．zěnme 怎么 - CHẨM MA - Thế nào
+279．zěnmeyàng 怎么样 - CHẨM MA DƯƠNG - Như thế nào
+280．zhāng 张 - TRƯƠNG - Lượng từ của trang
+281．zhàngfu 丈夫 - TRƯỢNG PHỤ - Đàn ông
+282．zhǎo 找 - TRẢO - Tìm
+283．zhè 这 （zhèr 这儿）- GIÁ - Cái này
+284．zhe 着 - TRƯỚC - Đang
+285．zhēn 真 - CHÂN - Thật
+286．zhèngzài 正在 - CHÍNH TẠI - Ngay tại
+287．zhīdào 知道 - TRÍ ĐẠO - Biết
+288．Zhōngguó 中国 - TRUNG QUỐC - Trung Quốc
+289．zhōngwǔ 中午 - TRUNG NGỌ - Buổi trưa
+290．zhù 住 - TRÚ - Ở
+291．zhǔnbèi 准备 - CHUẨN BỊ - Chuẩn bị
+292．zhuōzi 桌子 - TRÁC TỬ - Cái bàn
+293．zì 字 - TỰ - Chữ
+294．zìxíngchē 自行车 - TỰ HÀNH XA - Xe đạp
+295．zǒu 走 - TẨU - Chạy
+296．zuì 最 - TỐI - Nhất
+297．zuótiān 昨天 - TẠC THIÊN - Ngày hôm qua
+298．zuǒbian 左边 - TẢ BIÊN - Bên trái
+299．zuò 坐 - TOẠ - Ngồi
+300．zuò 做 - TÁC - Làm
