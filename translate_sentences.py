@@ -24,24 +24,31 @@ def main():
 
         traditional_word = translate(full_string, 'zh-TW')
         if traditional_word == key:
-            traditional_word = ''
+            simple_word_check = translate(full_string, 'zh-CN')
+            if simple_word_check != traditional_word:
+                traditional_word = key
+                key = simple_word_check
+            else:
+                traditional_word = ''
 
         english_word = translate(full_string, 'en')
         vietnamese_word = translate(full_string, 'vi')
 
         # print type(key), type(traditional_word), type(pinyin_word), type(english_word), type(vietnamese_word)
-        print key
-        if traditional_word:
-            print traditional_word
-        print pinyin_word
-        print english_word
-        print vietnamese_word
-        temp_list = [key,
-                     traditional_word,
-                     pinyin_word,
-                     english_word,
-                     vietnamese_word]
-        translate_list.append(temp_list)
+        # print key + '/' + traditional_word + '/' + pinyin_word + '/' + vietnamese_word
+        print key + '/' + traditional_word + '/' + pinyin_word
+        # if traditional_word:
+        #     print traditional_word
+        # print pinyin_word
+        # print vietnamese_word
+        # print english_word
+
+        # temp_list = [key,
+        #              tradinitional_word,
+        #              pinyin_word,
+        #              english_word,
+        #              vietnamese_word]
+        # translate_list.append(temp_list)
 
 
 if __name__ == '__main__':
