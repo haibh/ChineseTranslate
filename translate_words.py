@@ -10,11 +10,11 @@ from xpinyin import Pinyin
 from bs4 import BeautifulSoup as BS
 
 
-
 def get_hanvi(word):
     # word = '%E8%BF%98'
     # # word = 'aaaaa'
     link = 'http://hvdic.thivien.net/whv/' + word
+
     response = requests.get(link)
     soup = BS(response.content, "lxml")
     # print(soup.prettify())
@@ -52,6 +52,7 @@ def main():
 
     for word in word_list:
         key = word[0].decode('utf-8')
+        hanvi_word = ''
 
         p = Pinyin()
         pinyin_word = p.get_pinyin(key, ' ', show_tone_marks=True)
@@ -69,6 +70,12 @@ def main():
         vietnamese_word = translate(word[0], 'vi')
 
         hanvi_word = get_hanvi(word[0])
+        hanvi_list = []
+
+        if not hanvi_word:
+            for each in key:
+                hanvi_list.append(get_hanvi(each))
+            hanvi_word = '-'.join(hanvi_list)
 
         # print type(key), type(traditional_word), type(pinyin_word), type(english_word), type(vietnamese_word)
         print key + "\\" + traditional_word + "\\" + pinyin_word + "\\" + hanvi_word + "\\" + english_word + "\\" + vietnamese_word
@@ -80,16 +87,6 @@ def main():
                      vietnamese_word]
         # print temp_listkh
         translate_list.append(temp_list)
-
-
-
-
-        # print translate_list
-        # print len(translate_list)
-        # #
-        # with open("output.csv", "w") as f:
-        #     writer = csv.writer(f)
-        #     writer.writerows(translate_list)
 
 
 if __name__ == '__main__':
