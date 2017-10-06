@@ -42,6 +42,7 @@ def get_hanvi(word):
     return hanvi_word
 
 
+
 def main():
     with open('input.csv', 'r') as f:
         reader = csv.reader(f)
